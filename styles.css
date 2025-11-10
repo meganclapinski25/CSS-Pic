@@ -88,3 +88,50 @@
 .b6 { height: 240px; margin-left: 14px; }
 .b7 { height: 270px; margin-left: 10px; }
 .b8 { height: 220px; margin-left: 110px; }
+
+.hills {
+    position: absolute;
+    inset: 0;
+  }
+  
+  
+  .hill {
+    position: absolute;
+    border-radius: 50%
+  }
+  
+  /* far hills  */
+  .h1 {
+    width: 62vw; 
+    height: 62vw;
+    left: -12vw; 
+    bottom: -46vw;
+    background: #6B9362;
+    
+  }
+  .h2 {
+    width: 48vw; 
+    height: 48vw;
+    left: 28vw; 
+    bottom: -36vw;
+    background:  #588B58;
+    
+  }
+  
+  /* near hills  */
+  .h3 {
+    width: 72vw; 
+    height: 72vw;
+    right: -18vw; 
+    bottom: -53vw;
+    background: #3E7046;
+    
+  }
+  .h4 {
+    width: 42vw;
+     height: 42vw;
+    left: 6vw; 
+    bottom: -30vw;
+    background: #295C38; 
+    
+  }
