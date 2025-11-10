@@ -160,3 +160,59 @@
     background: #295C38; 
     
   }
+  .trees {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 4; /* in front of buildings */
+  }
+  
+  /* shared tree structure */
+  .tree {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  /* trunk */
+  .trunk {
+    width: 20px;
+    height: 100px;
+    background-color: #4b2e05;
+    border-radius: 4px;
+  }
+  
+  /* leaves */
+  .leaves {
+    width: 90px;
+    height: 90px;
+    background-color: #2d6a4f;
+    border-radius: 50%;
+    margin-bottom: -20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  .t1 {
+    left: 120px;
+    bottom: 300px;
+    transform: rotate(-3deg) scale(0.95);
+  }
+  
+  .t2 {
+    right: 180px;
+    bottom: 200px;
+    transform: rotate(-3deg) scale(0.95);
+  }
+  .t3 {
+    left: 199px;
+    bottom: 300px;
+    transform: rotate(-3deg) scale(0.95);
+  }
+  .t4 {
+    right: 250px;
+    bottom: 215px;
+  }
+  .t5 {
+    right: 10px;
+    bottom: 225px;
+  }
