@@ -94,6 +94,75 @@
 --t5-bottom: 225px;
 }
 
+/* Themes */ 
+
+/* day theme */
+body.day-theme{
+    /* sky */
+    --sky-base-color: #0B486B;
+    --sky-gradient-bottom: #3988b5;
+    --sky-gradient-top: #F56217;
+  
+    /* sun  */
+    --sun-color-inner: #FA8607;
+    --sun-color-mid: #FCB033;
+    --sun-color-outer: #FECC51;
+    --sun-size: 200px;
+    --sun-left: 75%;
+    --sun-top: 40%;
+  
+    /* hills  */
+    --hill1-color: #6B9362;
+    --hill2-color: #588B58;
+    --hill3-color: #3E7046;
+    --hill4-color: #295C38;
+  
+    /* trees */
+    --trunk-color: #4b2e05;
+    --leaves-color: #2d6a4f;
+  
+    /* buildings */
+    --building-color-bottom: #2a2e35;
+    --building-color-top: #96754a;
+    --roof-color-bottom: #ab834d;
+    --roof-color-top: #c2c9d0;
+  
+}
+/*night theme*/
+body.night-theme{
+  /* sky  */
+  --sky-base-color: #030617;
+  --sky-gradient-bottom: #0b1f3b;  
+  --sky-gradient-top: #020814;     
+
+  /* moon */
+  --sun-color-inner: #f4f7ff;
+  --sun-color-mid: #dde3ff;
+  --sun-color-outer: #b8c2ff;
+  --sun-size: 160px;         
+  --sun-left: 70%;            
+  --sun-top: 30%;
+
+  /* hills  */
+  --hill1-color: #2a3b33;
+  --hill2-color: #22352d;
+  --hill3-color: #182921;
+  --hill4-color: #111f18;
+
+  /* trees  */
+  --trunk-color: #301d07;
+  --leaves-color: #1b3c30;
+  --leaves-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+
+  /* buildings  */
+  --building-color-bottom: #111218;
+  --building-color-top: #3a3f4b;
+  --roof-color-bottom: #3c3f46;
+  --roof-color-top: #7c8494;
+  --building-shadow: 0 6px 16px rgba(0, 0, 0, 0.7);
+}
+
+
 
 *{
   margin: 0;
